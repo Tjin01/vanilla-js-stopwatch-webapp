@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    background: #fcd362;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app {
+    max-width: 550px;
+    height: 450px;
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.stopwatch-header-container, .timer-container, .stopwatch-button-container {
+    flex: 1;
+}
+
+.stopwatch-header-container {
+    padding: 15px;
+}
+
+.stopwatch-header-container h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 2.1rem;
+    color: #fff;
+}
+
+.timer-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timer-container h4 {
+    font-size: 1.3rem;
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 1px;
+    margin: 1px;
+    height: 30px;
+    width: 30px;
+}
+
+.stopwatch-button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.stopwatch-button-container button {
+    padding: 15px 10px;
+    width: 150px;
+    border: 1px solid #fff;
+    margin: 5px;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.1rem;
+}
+
+#showtime {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+}
+
